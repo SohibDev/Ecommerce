@@ -110,12 +110,21 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+  transition: 0.5s;
+}
+.footer_text_third:hover {
+  color: #9F9F9F;
 }
 
 .footer_form_input_email {
   border: none;
   border-bottom: 1px solid #000000;
   padding-right: 10px;
+}
+.footer_form_input_email:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
 }
 
 .footer_form_button_subscribe {
@@ -127,6 +136,10 @@ a {
   background-color: transparent;
   margin-left: 11px;
   border-bottom: 1px solid #000000;
+  transition: 0.5s;
+}
+.footer_form_button_subscribe:hover {
+  color: #9F9F9F;
 }
 
 @media screen and (max-width: 330px) {

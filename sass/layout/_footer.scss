@@ -17,12 +17,21 @@
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+  transition: $control-transition-time;
+  &:hover{
+    color: #9F9F9F;
+  }
 }
 
 .footer_form_input_email {
   border: none;
   border-bottom: 1px solid #000000;
   padding-right: 10px;
+  &:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
 }
 
 .footer_form_button_subscribe {
@@ -34,6 +43,10 @@
   background-color: transparent;
   margin-left: 11px;
   border-bottom: 1px solid #000000;
+  transition: $control-transition-time;
+  &:hover{
+    color: #9F9F9F;
+  }
 }
 @media screen and (max-width:330px) {
   .footer_form_button_subscribe {
