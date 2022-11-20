@@ -1,0 +1,13 @@
+// @import '../main.scss';
+@import "../abstracts/mixin";
+@import "../abstracts/variables";
+@import "../base/reset";
+@import "../base/typography";
+@import "../components/buttons";
+@import "../components/carousel";
+@import "../components/preloader";
+@import "../layout/footer";
+@import "../layout/header";
+#hero-section {
+  background: #fbebb5 !important;
+}
