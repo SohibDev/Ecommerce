@@ -1,1 +1,10 @@
-/*# sourceMappingURL=account.css.map */
+.hero {
+  background-image: url(./images/background-hero.png);
+}
+.hero .link__account__hero__inner {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}/*# sourceMappingURL=account.css.map */
