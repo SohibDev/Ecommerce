@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500&family=Schoolbell&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 .loader_bg {
@@ -43,16 +42,16 @@
   0% {
     transform: scale(0);
     opacity: 0;
-    border-color: blue;
+    border-color: rgb(225, 255, 0);
   }
   50% {
     opacity: 1;
-    border-color: greenyellow;
+    border-color: rgb(255, 113, 47);
   }
   100% {
     transform: scale(1);
     opacity: 0;
-    border-color: aqua;
+    border-color: rgb(255, 170, 0);
   }
 }
 
@@ -60,16 +59,16 @@
   0% {
     transform: scale(0);
     opacity: 0;
-    border-color: blue;
+    border-color: rgb(225, 255, 0);
   }
   50% {
     opacity: 1;
-    border-color: greenyellow;
+    border-color: rgb(255, 113, 47);
   }
   100% {
     transform: scale(1);
     opacity: 0;
-    border-color: aqua;
+    border-color: rgb(255, 170, 0);
   }
 }
 * {
@@ -170,7 +169,6 @@ a {
   background-color: white;
   border-radius: 50%;
   padding: 13px;
-  padding-top: 10px;
   bottom: 60px;
   position: fixed;
   right: 50px;
@@ -274,6 +272,35 @@ a {
   background-color: rgb(251, 235, 181);
 }
 
+#services {
+  background-color: #FAF4F4;
+  padding: 96px 0 50px 0;
+}
+#services .dad-box .box {
+  margin-bottom: 40px;
+}
+#services .dad-box .box h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+#services .dad-box .box p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #9F9F9F;
+}
+
+@media screen and (max-width: 990px) {
+  #services .dad-box .box p, #services .dad-box .box h3 {
+    text-align: center !important;
+  }
+}
 @media screen and (max-width: 576px) {
   .card-body {
     padding: 0 5px !important;
@@ -284,6 +311,3 @@ a {
     font-size: 13px !important;
   }
 }/*# sourceMappingURL=blog.css.map */
-=======
-/* No CSS *//*# sourceMappingURL=blog.css.map */
->>>>>>> 1b06b8e4ae24468c2a47772408e2e22984922f7f
