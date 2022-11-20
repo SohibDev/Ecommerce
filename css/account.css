@@ -94,4 +94,27 @@
 
 .register__text_1 {
   padding-top: 36px;
+}
+
+@media screen and (max-width: 458px) {
+  .form__account__sect {
+    width: 100% !important;
+  }
+  .link__forgot__pas {
+    display: block !important;
+    padding-top: 20px;
+  }
+  .footer_form_button_subscribe {
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer__innner {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .login__account {
+    padding-top: 60px;
+  }
 }/*# sourceMappingURL=account.css.map */
