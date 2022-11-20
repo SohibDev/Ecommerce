@@ -117,4 +117,19 @@
   .login__account {
     padding-top: 60px;
   }
+}
+.info__txt__heading {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.sec__info {
+  background: #FAF4F4;
+}
+
+.row__inner__account {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }/*# sourceMappingURL=account.css.map */

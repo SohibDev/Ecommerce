@@ -1,1 +1,9 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"contact.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/pages/contact.scss"
+    ],
+    "names": [],
+    "file": "contact.css"
+}
