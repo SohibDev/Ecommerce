@@ -39,7 +39,6 @@ body {
   line-height: 20px;
   color: #000000;
 }
-
 .size:hover {
   background: #fbebb5;
 }
@@ -87,7 +86,6 @@ svg {
   border: 1px solid #000000;
   border-radius: 15px;
 }
-
 .btn1:hover {
   background: #fbebb5;
 }
@@ -101,7 +99,6 @@ svg {
 .second .heros:hover {
   color: black;
 }
-
 .second .txt2 {
   margin: 0 auto;
   max-width: 1028px;
@@ -126,9 +123,6 @@ svg {
     display: none;
   }
   .second_txt {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
-}
-/*# sourceMappingURL=product.css.map */
+}/*# sourceMappingURL=product.css.map */

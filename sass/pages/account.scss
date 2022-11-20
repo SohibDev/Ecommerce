@@ -89,9 +89,49 @@
   color: #000000;
   margin-left: 20px;
 }
+
 .link__forgot__pas:hover {
   color: #000000;
 }
+
 .register__text_1 {
   padding-top: 36px;
+}
+
+@media screen and (max-width:458px) {
+  .form__account__sect {
+    width: 100% !important;
+  }
+
+  .link__forgot__pas {
+    display: block !important;
+    padding-top: 20px;
+  }
+
+
+}
+
+
+@media screen and (max-width:992px) {
+  .login__account {
+    padding-top: 60px;
+  }
+}
+
+.info__txt__heading {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.sec__info {
+  background: #FAF4F4;
+}
+@media screen and (min-width:1200px) {
+  .row__inner__account {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+  }
 }
