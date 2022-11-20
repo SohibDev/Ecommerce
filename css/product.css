@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
 .text-secondarys {
   color: #9f9f9f;
 }
@@ -30,6 +38,7 @@
   line-height: 20px;
   color: #000000;
 }
+
 .size:hover {
   background: #fbebb5;
 }
@@ -77,6 +86,7 @@ svg {
   border: 1px solid #000000;
   border-radius: 15px;
 }
+
 .btn1:hover {
   background: #fbebb5;
 }
@@ -90,6 +100,7 @@ svg {
 .second .heros:hover {
   color: black;
 }
+
 .second .txt2 {
   margin: 0 auto;
   max-width: 1028px;
@@ -99,11 +110,34 @@ svg {
   border: none;
 }
 
+.views a {
+  text-decoration: none;
+}
+
+.views a p {
+  margin-top: 93px;
+  width: 104px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.views .line {
+  width: 115px;
+  margin: 0 auto;
+  height: 0px;
+  border: 2px solid #000000;
+}
+
 @media screen and (max-width: 576px) {
   .little_sofa {
     display: none;
   }
   .second_txt {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-}/*# sourceMappingURL=product.css.map */
+}
+/*# sourceMappingURL=product.css.map */
