@@ -8,10 +8,35 @@
 
 .contact p {
   font-family: "Poppins";
-  width: 600px;
+  max-width: 600px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #9f9f9f;
+}
+
+.contact div div div div p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 180px;
+  color: #000000;
+}
+
+.contact h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.contact button {
+  padding: 5px 50px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 15px;
 }
 /*# sourceMappingURL=contact.css.map */

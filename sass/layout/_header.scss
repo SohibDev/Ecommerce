@@ -1,8 +1,69 @@
-// OFFCANVAS
-.warning {
-  a {
-    svg {
-      margin-right: auto;
+header {
+  background: red;
+  & .header {
+    background: red;
+  }
+  padding: 1rem 0;
+  transition: $control-transition-time;
+  & #offcanvasNavbar {
+    background-color: red !important;
+
+    @media screen and(max-width:990.999px) {
+      .offcanvas-header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+    }
+
+    @media screen and(max-width:610px) {
+      ul {
+        display: flex;
+        flex-direction: column;
+      }
     }
   }
+
+  .nav {
+    &__link {
+      font-size: 17px;
+      transition: $control-transition-time;
+      &:hover {
+        text-decoration: underline;
+        color: white !important;
+      }
+    }
+
+    @media screen and(max-width:990.999px) {
+      &__link {
+        font-size: 21px;
+      }
+    }
+  }
+
+  & .active {
+    color: white !important;
+    background: transparent !important;
+    text-decoration: underline !important;
+  }
+
+  & .btn {
+    &__call {
+      background: $call-btn !important;
+      border: none;
+      border-radius: 25px;
+      transition: $control-transition-time;
+
+      &:hover {
+        background-color: transparent !important;
+        border: 1px solid $call-btn;
+      }
+    }
+  }
+}
+
+.navbar-shrink {
+  background-color: #0a475a;
+  box-shadow: 0 0 8px #086e8d;
+  padding: 5px !important;
 }

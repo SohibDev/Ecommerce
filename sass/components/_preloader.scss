@@ -39,17 +39,17 @@
   0% {
     transform: scale(0);
     opacity: 0;
-    border-color: blue;
+    border-color: rgb(225, 255, 0);
   }
 
   50% {
     opacity: 1;
-    border-color: greenyellow;
+    border-color: rgb(255, 113, 47);
   }
 
   100% {
     transform: scale(1);
     opacity: 0;
-    border-color: aqua;
+    border-color: rgb(255, 170, 0);
   }
 }
