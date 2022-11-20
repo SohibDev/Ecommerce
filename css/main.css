@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 .loader_bg {
   position: fixed;
@@ -241,11 +240,6 @@ a {
     border-color: aqua;
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 6f858db8491082183b28a8a6ec3e4412ef02d694
->>>>>>> 89c987e10985fcbcfbea486921996411c1c4352d
 .btn-close:focus,
 .navbar-toggler:focus {
   outline: none;
