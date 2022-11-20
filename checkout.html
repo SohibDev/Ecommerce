@@ -26,12 +26,12 @@
         </section>
         <section class="checkoout-second">
              <div class="container">
-                <div class="row">
+                <div class="row checkoout-second">
                     <div class="col-lg-6 chkt">
-                         <h2>Billing Details</h2>
-                         <div>
-                            <form class="d-flex chkt__form flex-column"  action="/action_page.php">
-                                <div class="d-flex chkt__form">
+                        <div>
+                            <h2>Billing Details</h2>
+                            <form class="d-flex chkt__form flex-column align-items-center"  action="/action_page.php">
+                                <div class="d-flex chkt__form flex-wrap justify-content-center">
                                   <div>
                                     <label class=" chkt__name" for="fname">First name</label> <br>
                                     <input class="chkt__input" type="text" id="fname" name="fname">
@@ -46,7 +46,7 @@
                                   <input class="chkt__input chkt--input" type="text" id="fname" name="fname">
                               </div>
                               <div>
-                                <label class="chkt__name" for="cars">Choose a car:</label>
+                                <label class="chkt__name" for="cars">Countyr / Region</label> <br>
                                 <select class="chkt__input chkt--input" id="cars" name="cars">
                                   <option class="text" value="Sri Lanka">Sri Lanka</option>
                                   <option value="Uzb">Uzb</option>
@@ -83,10 +83,51 @@
                                 <label class=" chkt__name" for="town">Email Adres</label> <br>
                                 <input class="chkt__input chkt--input" type="email" id="town" name="town">
                             </div>
+                            <div>
+                                <input class="chkt__input chkt--input" type="text" id="fname" name="fname" placeholder="Additional information">
+                            </div>
                               </form>
                          </div>
                     </div>
-                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6 chkt1">
+                        <div class="d-flex justify-content-between">
+                            <div >
+                                <h2 class="heading" >Product</h2>
+                                <div class="d-flex gap-2">
+                                    <p class="sofa">Asgard sofa</p><p>x</p><p>1</p>
+                                </div>
+                                <p>Subtotal</p>
+                                <p>Total</p>
+                            </div>
+                            <div>
+                                <h2>Subtotal</h2>
+                                <p>Rs. 250,000.00</p>
+                                <p>Rs. 250,000.00</p>
+                                <p class="sum">Rs. 250,000.00</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                           <form  action="/action_page.php">
+                              <input type="radio" id="check" name="check">
+                              <label for="check" > Direct Bank Transfer</label>
+                              <br><br>
+                              <p class="form-grey">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                              <br>
+                              <input type="radio" id="check" name="check">
+                              <label class="form-grey"  for="check" > Direct Bank Transfer</label>
+                              <br>
+                              <input type="radio" id="check" name="check">
+                              <label class="form-grey" for="check" > Cush on Deliveryr</label>
+                              <br><br>
+                              <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <p>privacy policy</p>.</p>
+                              <div class="d-flex justify-content-center">
+
+                                  <button type="button" class="btn btn-outline-dark ">Dark</button>
+                              </div>
+                           </form>
+                        </div>
+                    </div>
                 </div>
              </div>
         </section>
