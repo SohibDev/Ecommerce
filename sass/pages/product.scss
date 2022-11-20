@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.text-secondarys {
+  color: #9f9f9f;
+}
+.price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.first_h1 {
+  height: 63px;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 63px;
+}
+.txt {
+  max-width: 424px;
+}
+.size {
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  background: #faf4f4;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+
+  &:hover {
+    background: #fbebb5;
+  }
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background: #816dfa;
+  border-radius: 50px;
+}
+.circle2 {
+  background: #000000;
+}
+.circle3 {
+  background: #cdba7b;
+}
+.first {
+  padding-top: 18px;
+}
+.svg1 {
+  padding-top: 25px;
+  width: 11px;
+}
+svg {
+  width: 21px;
+}
+.plus {
+  width: 123px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+}
+.btn1 {
+  background-color: transparent;
+  width: 215px;
+  height: 64px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+
+  &:hover {
+    background: #fbebb5;
+  }
+}
+.heart {
+  width: 25px;
+  height: 30px;
+  // margin-left: 50px;
+  margin-top: 110px;
+}
+.second {
+  .heros:hover {
+    color: black;
+  }
+  .txt2 {
+    margin: 0 auto;
+    max-width: 1028px;
+  }
+}
+.card {
+  border: none;
+}
+.views {
+  a {
+    text-decoration: none;
+    text-align: center !important;
+    width: 104px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+}
+@media screen and (max-width: 576px) {
+  .little_sofa {
+    display: none;
+  }
+  .second_txt {
+    align-items: center;
+  }
+}
