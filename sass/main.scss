@@ -1,12 +1,13 @@
-@import "./abstracts/mixin";
-@import "./abstracts/variables";
-@import "./base/reset";
-@import "./base/typography";
-@import "./layout/footer";
-@import "./layout/header";
-@import "./components/buttons";
-@import "./components/carousel";
-@import "./components/preloader";
+@import './abstracts/mixin';
+@import './abstracts/variables';
+@import './base/reset';
+@import './base/typography';
+@import './components/buttons';
+@import './components/carousel';
+@import './components/preloader';
+@import './layout/footer';
+@import './layout/header';
+
 
 .btn-close:focus,
 .navbar-toggler:focus {

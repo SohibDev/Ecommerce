@@ -45,7 +45,6 @@
   font-size: 36px;
   line-height: 54px;
 }
-
 .contact p {
   font-family: "Poppins";
   max-width: 600px;
@@ -54,7 +53,6 @@
   line-height: 24px;
   color: #9f9f9f;
 }
-
 .contact div div div div p {
   font-family: "Poppins";
   font-style: normal;
@@ -64,7 +62,6 @@
   max-width: 195px;
   color: #000000;
 }
-
 .contact h4 {
   font-family: "Poppins";
   font-style: normal;
@@ -72,16 +69,12 @@
   font-size: 24px;
   line-height: 36px;
 }
-
 .contact button {
   padding: 5px 50px;
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 15px;
 }
-<<<<<<< HEAD
-/*# sourceMappingURL=contact.css.map */
-=======
 .contact button:hover {
   background-color: #000000;
   color: white;
@@ -105,4 +98,3 @@
     margin-top: 50px;
   }
 }/*# sourceMappingURL=contact.css.map */
->>>>>>> bba9f11 (Changed Contact Page)

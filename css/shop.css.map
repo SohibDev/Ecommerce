@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/pages/shop.scss"
-    ],
-    "names": [],
-    "file": "shop.css"
-}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"shop.css"}
