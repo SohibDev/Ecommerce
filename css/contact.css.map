@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/pages/contact.scss"
-    ],
-    "names": [],
-    "file": "contact.css"
-}
-=======
 {"version":3,"sources":["../sass/pages/contact.scss","contact.css"],"names":[],"mappings":"AACE;EACE,sBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;ACAJ;ADGE;EACE,sBAAA;EACA,YAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,cAAA;ACDJ","file":"contact.css"}
->>>>>>> b012c2e (Changed Contact Page)
