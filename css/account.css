@@ -1,10 +1,97 @@
 .hero {
-  background-image: url(./images/background-hero.png);
+  background-image: url("../images/background-hero.png");
+  height: 316px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.hero .link__account__hero__inner {
+
+.hero__box {
+  height: 316px;
+  width: 100%;
+}
+.hero__box .link__account__hero__inner {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+.hero__box .link_2_account__hero__inner {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.login__account {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+  padding-bottom: 36px;
+}
+
+.user__or__email__label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.form__account__sect {
+  background: #FFFFFF;
+  border: 1px solid #9F9F9F;
+  border-radius: 10px;
+  width: 423px;
+  height: 75px;
+}
+
+.form__account__sect:active {
+  background: #FFFFFF;
+  border: 1px solid #9F9F9F !important;
+  border-radius: 10px;
+}
+
+.label__password {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-top: 36px;
+  padding-bottom: 22px;
+}
+
+#remember {
+  width: 30px;
+  height: 27px;
+}
+
+.remember_box {
+  padding-top: 43px;
+  display: flex;
+  align-items: center;
+}
+
+.button__log__in__acc {
+  padding: 17px 78px !important;
+  border-radius: 15px !important;
+}
+
+.link__forgot__pas {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: 20px;
+}
+
+.link__forgot__pas:hover {
+  color: #000000;
+}
+
+.register__text_1 {
+  padding-top: 36px;
 }/*# sourceMappingURL=account.css.map */
