@@ -124,10 +124,14 @@
   line-height: 48px;
   color: #000000;
 }
+
 .sec__info {
   background: #FAF4F4;
 }
-.row__inner__account {
-  padding-top: 96px;
-  padding-bottom: 96px;
+@media screen and (min-width:1200px) {
+  .row__inner__account {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+  }
 }
