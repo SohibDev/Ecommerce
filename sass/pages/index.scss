@@ -1,4 +1,72 @@
-
-#hero-section {
+.hero-section {
   background: #FBEBB5 !important;
+  min-height: 100vh;
+}
+
+.navigation {
+  position: fixed;
+  inset: 90px 0 40px 20px;
+  width: 75px;
+  background: red;
+  display: flex;
+  justify-content: center !important;
+  transition: 0.5s;
+  align-items: center !important;
+}
+
+.navigation.active {
+  width: 250px;
+}
+
+.menuToggle {
+  padding: 0 23px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navigation.active .menuToggle::before {
+  transform: translateY(0) rotate(45deg);
+  box-shadow: 0 0 0 #333;
+}
+
+.menuToggle::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #333;
+  transform: translateY(-8px);
+  transition: 0.5s;
+  box-shadow: 0 -8px 0 #333;
+}
+
+.menuToggle::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #333;
+  transform: translateY(8px);
+  transition: 0.5s;
+  box-shadow: 0 -8px 0 #333;
+}
+
+.navigation.active .menuToggle::after {
+  transform: translateY(0) rotate(-45deg);
+  box-shadow: 0 0 0 #333;
+}
+
+.ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
