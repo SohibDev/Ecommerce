@@ -43,17 +43,29 @@
     -webkit-transform: scale(0);
             transform: scale(0);
     opacity: 0;
+<<<<<<< HEAD
     border-color: #e1ff00;
   }
   50% {
     opacity: 1;
     border-color: #ff712f;
+=======
+    border-color: rgb(225, 255, 0);
+  }
+  50% {
+    opacity: 1;
+    border-color: rgb(255, 113, 47);
+>>>>>>> d518d6fb0f0a3976f923bcd4cc5b6076228abb73
   }
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 0;
+<<<<<<< HEAD
     border-color: #ffaa00;
+=======
+    border-color: rgb(255, 170, 0);
+>>>>>>> d518d6fb0f0a3976f923bcd4cc5b6076228abb73
   }
 }
 
@@ -62,17 +74,29 @@
     -webkit-transform: scale(0);
             transform: scale(0);
     opacity: 0;
+<<<<<<< HEAD
     border-color: #e1ff00;
   }
   50% {
     opacity: 1;
     border-color: #ff712f;
+=======
+    border-color: rgb(225, 255, 0);
+  }
+  50% {
+    opacity: 1;
+    border-color: rgb(255, 113, 47);
+>>>>>>> d518d6fb0f0a3976f923bcd4cc5b6076228abb73
   }
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 0;
+<<<<<<< HEAD
     border-color: #ffaa00;
+=======
+    border-color: rgb(255, 170, 0);
+>>>>>>> d518d6fb0f0a3976f923bcd4cc5b6076228abb73
   }
 }
 
@@ -186,7 +210,6 @@ a {
   background-color: white;
   border-radius: 50%;
   padding: 13px;
-  padding-top: 10px;
   bottom: 60px;
   position: fixed;
   right: 50px;
@@ -303,6 +326,35 @@ a {
   background-color: #fbebb5;
 }
 
+#services {
+  background-color: #FAF4F4;
+  padding: 96px 0 50px 0;
+}
+#services .dad-box .box {
+  margin-bottom: 40px;
+}
+#services .dad-box .box h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+#services .dad-box .box p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #9F9F9F;
+}
+
+@media screen and (max-width: 990px) {
+  #services .dad-box .box p, #services .dad-box .box h3 {
+    text-align: center !important;
+  }
+}
 @media screen and (max-width: 576px) {
   .card-body {
     padding: 0 5px !important;
@@ -313,5 +365,9 @@ a {
   .information p {
     font-size: 13px !important;
   }
+<<<<<<< HEAD
 }
 /*# sourceMappingURL=blog.css.map */
+=======
+}/*# sourceMappingURL=blog.css.map */
+>>>>>>> d518d6fb0f0a3976f923bcd4cc5b6076228abb73

@@ -1,12 +1,10 @@
+@import '../abstracts/variables';
 header {
-  background: red;
-  & .header {
-    background: red;
-  }
+  background:#FBEBB5 !important;
   padding: 1rem 0;
   transition: $control-transition-time;
   & #offcanvasNavbar {
-    background-color: red !important;
+    background-color: #FBEBB5 !important;
 
     @media screen and(max-width:990.999px) {
       .offcanvas-header {
@@ -27,7 +25,7 @@ header {
   .nav {
     &__link {
       font-size: 17px;
-      transition: $control-transition-time;
+      // transition: $control-transition-time;
       &:hover {
         text-decoration: underline;
         color: white !important;
@@ -49,21 +47,20 @@ header {
 
   & .btn {
     &__call {
-      background: $call-btn !important;
+      background: #086e8d !important;
       border: none;
       border-radius: 25px;
       transition: $control-transition-time;
 
       &:hover {
         background-color: transparent !important;
-        border: 1px solid $call-btn;
+        border: 1px solid #086e8d;
       }
     }
   }
 }
 
 .navbar-shrink {
-  background-color: #0a475a;
-  box-shadow: 0 0 8px #086e8d;
+  box-shadow: 0 0 5px #ffc400;
   padding: 5px !important;
 }

@@ -1,9 +1,5 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/pages/checkout.scss"
-    ],
-    "names": [],
-    "file": "checkout.css"
-}
+<<<<<<< HEAD
+{"version":3,"sources":[],"names":[],"mappings":"","file":"checkout.css"}
+=======
+{"version":3,"sources":["../Ecommerce/sass/pages/checkout.scss","checkout.css"],"names":[],"mappings":"AAAA;EACI,mEAAA;EACA,aAAA;EACA,WAAA;EACA,4BAAA;EACA,sBAAA;ACCJ;ADCQ;EACI,gBAAA;EACA,iBAAA;EACA,cAAA;ACCZ;ADCQ;EACI,gBAAA;EAEA,iBAAA;EACA,cAAA;ACAZ;ADEQ;EACI,gBAAA;ACAZ;;ADIA;EACI,6BAAA;ACDJ;ADEI;EACI,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,mBAAA;ACAR;ADEI;EACI,SAAA;ACAR;ADEI;EACE,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,cAAA;EACA,oBAAA;ACAN;ADEI;EACI,YAAA;EACA,YAAA;EACA,mBAAA;EACA,yBAAA;EACA,mBAAA;ACAR;ADEI;EACI,YAAA;ACAR","file":"checkout.css"}
+>>>>>>> 3898d6098a6400a58d6313096dac43d61232dbaf

@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=checkout.css.map */
+<<<<<<< HEAD
+/*# sourceMappingURL=checkout.css.map */
+=======
+.checkout_hero {
+  background-image: url("./css/Ecommerce/images/background-hero.png");
+  height: 316px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.checkout_hero .checkout_hero__link .link_1 {
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+}
+.checkout_hero .checkout_hero__link .link_2 {
+  font-weight: 300;
+  line-height: 24px;
+  color: #000000;
+}
+.checkout_hero .checkout_hero__link img {
+  margin: 0px 10px;
+}
+
+.chkt {
+  padding: 98px 79px 123px 76px;
+}
+.chkt h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 31px;
+}
+.chkt .chkt__form {
+  gap: 31px;
+}
+.chkt .chkt__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+.chkt .chkt__input {
+  width: 211px;
+  height: 75px;
+  background: #FFFFFF;
+  border: 1px solid #9F9F9F;
+  border-radius: 10px;
+}
+.chkt .chkt--input {
+  width: 453px;
+}/*# sourceMappingURL=checkout.css.map */
+>>>>>>> 3898d6098a6400a58d6313096dac43d61232dbaf
