@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-/*# sourceMappingURL=checkout.css.map */
-=======
 .checkout_hero {
-  background-image: url("./css/Ecommerce/images/background-hero.png");
+  background-image: url("../images/background-hero.png");
   height: 316px;
   width: 100%;
   background-repeat: no-repeat;
@@ -47,8 +44,9 @@
   background: #FFFFFF;
   border: 1px solid #9F9F9F;
   border-radius: 10px;
+  padding: 10px;
+  color: #9F9F9F;
 }
 .chkt .chkt--input {
   width: 453px;
 }/*# sourceMappingURL=checkout.css.map */
->>>>>>> 3898d6098a6400a58d6313096dac43d61232dbaf

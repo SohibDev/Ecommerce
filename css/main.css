@@ -216,6 +216,13 @@ a {
     padding-top: 15px;
   }
 }
+.btn-close:focus,
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
 header {
   background: #FBEBB5 !important;
   padding: 1rem 0;
@@ -238,10 +245,10 @@ header #offcanvasNavbar {
   }
 }
 header .nav__link {
-  font-size: 17px;
+  transition: 0.5s;
+  padding: 15px 25px;
 }
 header .nav__link:hover {
-  text-decoration: underline;
   color: white !important;
 }
 @media screen and (max-width: 990.999px) {
@@ -250,19 +257,12 @@ header .nav__link:hover {
   }
 }
 header .active {
-  color: white !important;
-  background: transparent !important;
-  text-decoration: underline !important;
+  background: #fce18b !important;
+  color: whitesmoke !important;
 }
-header .btn__call {
-  background: #086e8d !important;
-  border: none;
-  border-radius: 25px;
+header .image:hover {
   transition: 0.5s;
-}
-header .btn__call:hover {
-  background-color: transparent !important;
-  border: 1px solid #086e8d;
+  filter: invert(86%) sepia(37%) saturate(3987%) hue-rotate(353deg) brightness(93%) contrast(93%);
 }
 
 .navbar-shrink {
