@@ -7,7 +7,7 @@
   position: fixed;
   inset: 90px 0 40px 20px;
   width: 75px;
-  background: red;
+  background: #fff;
   display: flex;
   justify-content: center !important;
   transition: 0.5s;
@@ -16,6 +16,10 @@
 
 .navigation.active {
   width: 250px;
+}
+.navigation.active .text {
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .menuToggle {
@@ -68,5 +72,121 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+}
+.ul li {
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 76px;
+  border-radius: 12px;
+  border: 8px solid transparent;
+  transition: 0.5s;
+}
+.ul li:hover {
+  transform: translateX(30px);
+  background: #1e0f4a;
+}
+.ul li:hover .icon {
+  background: yellow;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(113deg) brightness(100%) contrast(100%);
+}
+.ul li:hover .text {
+  color: #fff !important;
+}
+.ul li::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -28px;
+  left: -50px;
+  background: transparent;
+  border-bottom-right-radius: 20px;
+  box-shadow: 6px 5px 0 5px #1e0f4a;
+  transform: scale(0);
+  transform-origin: bottom right;
+  transition: 0.5s;
+}
+.ul li::before:hover {
+  right: 22px;
+  transform: scale(1);
+}
+.ul li::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: -28px;
+  right: -20px;
+  background: transparent;
+  border-top-right-radius: 20px;
+  box-shadow: 6px -3px 0 3px #1e0f4a;
+  transform: scale(0);
+  transform-origin: bottom right;
+  transition: 0.5s;
+}
+.ul li::after:hover {
+  right: 22px;
+  transform: scale(1);
+}
+.ul li a {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1000;
+}
+.ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 1.7em;
+  line-height: 60px;
+  border: 6px solid transparent;
+  transition: 0.5s;
+}
+.ul li a .icon::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(80px);
+  opacity: 0;
+  background: red;
+  transition: 0.5s;
+}
+.ul li a .icon::before:hover {
+  opacity: 0.5;
+}
+.ul li a .icon::after {
+  top: 10px;
+  left: -53px;
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: yellow;
+  border: 8px solid red;
+  border-radius: 50%;
+}
+.ul li a .icon::after:hover {
+  opacity: 0.5;
+}
+.ul li a .text {
+  position: relative;
+  padding: 0 15px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
 }/*# sourceMappingURL=index.css.map */
