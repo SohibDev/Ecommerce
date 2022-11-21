@@ -12,17 +12,93 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/blog.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
+    <!-- <div class="loader_bg">
+      <div class="loader"></div>
+    </div> -->
+    <header class="sticky-top header" id="navbar">
+      <div class="container-sm">
+        <nav
+          id="navbar-example2"
+          class="navbar navbar-expand-lg justify-content-between"
+        >
+          <div class="d-flex align-items-center"></div>
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              data-offset="0"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-start d-flex w-75 flex-lg-row align-items-center"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              data-bs-scroll="true"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header px-sm-5">
+                <div class="d-flex gap-2"></div>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <ul class="gap-4 nav nav-pills px-sm-2">
+                <li class="nav__item">
+                  <a
+                    class="nav__link active text-black"
+                    aria-current="page"
+                    href="#home"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav__item">
+                  <a class="nav__link text-black" href="#service">Shop</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link text-black" href="#about">About</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link text-black" href="#blog">Contact</a>
+                </li>
+              </ul>
+              <a
+                href="tel:+998995252284"
+                class="btn__call py-3 px-5 text-white d-block d-lg-none mt-4 w-75 d-flex justify-content-center fs-3"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="btn d-none d-lg-block">
+            <a href="tel:+998994545597" class="btn__call py-3 px-5 text-white"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+
     <div id="top">
       <a href="#">
         <img src="./images/blog-images/arrow-up.svg" alt="up" class="up" />
       </a>
     </div>
+
     <main>
       <section id="hero">
         <div class="container">
-          <!-- <p>asfsadfa</p> -->
           <div class="text-center">
             <img src="./images/blog-images/logo.png" alt="logo" />
             <h1>Blog</h1>
@@ -35,47 +111,115 @@
 
       <section id="ability">
         <div class="container">
-          <div class="card w-75">
-            <img
-              src="./images/blog-images/abilities.png"
-              class="card-img-top"
-              alt="ability-1"
-            />
-            <div class="card-body p-0">
-              <div class="information">
-                <img
-                  src="./images/blog-images/admin-users.png"
-                  alt="admin"
-                  class="ms-0"
-                />
-                <p class="d-inline-block">Admin</p>
-                <img src="./images/blog-images/calender.png" alt="calendar" />
-                <p class="d-inline-block">14 Oct 2022</p>
-                <img src="./images/blog-images/ci_tag.png" alt="ci-tag" />
-                <p class="d-inline-block">Wood</p>
-              </div>
-              <h5 class="card-title">Going all-in with millennial design</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus
-                mauris vitae ultricies leo integer malesuada nunc. In nulla
-                posuere sollicitudin aliquam ultrices. Morbi blandit cursus
-                risus at ultrices mi tempus imperdiet. Libero enim sed faucibus
-                turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras
-                pulvinar mattis nunc sed blandit libero. Pellentesque elit
-                ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque
-                ornare aenean euismod elementum.
-              </p>
-              <a href="#">Read more</a><br />
+          <div class="d-flex justify-content-between">
+            <div class="card">
               <img
-                src="./images/blog-images/line.png"
-                alt="line"
-                class="line"
+                src="./images/blog-images/abilities.png"
+                class="card-img-top"
+                alt="ability-1"
               />
+              <div class="card-body p-0">
+                <div class="information">
+                  <img
+                    src="./images/blog-images/admin-users.png"
+                    alt="admin"
+                    class="ms-0"
+                  />
+                  <p class="d-inline-block">Admin</p>
+                  <img src="./images/blog-images/calender.png" alt="calendar" />
+                  <p class="d-inline-block">14 Oct 2022</p>
+                  <img src="./images/blog-images/ci_tag.png" alt="ci-tag" />
+                  <p class="d-inline-block">Wood</p>
+                </div>
+                <h5 class="card-title">Going all-in with millennial design</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Mus mauris vitae ultricies leo integer malesuada nunc. In
+                  nulla posuere sollicitudin aliquam ultrices. Morbi blandit
+                  cursus risus at ultrices mi tempus imperdiet. Libero enim sed
+                  faucibus turpis in. Cursus mattis molestie a iaculis at erat.
+                  Nibh cras pulvinar mattis nunc sed blandit libero.
+                  Pellentesque elit ullamcorper dignissim cras tincidunt.
+                  Pharetra et ultrices neque ornare aenean euismod elementum.
+                </p>
+                <a href="#">Read more</a><br />
+                <img
+                  src="./images/blog-images/line.png"
+                  alt="line"
+                  class="line"
+                />
+              </div>
+            </div>
+            <div class="right-side">
+              <input type="text" />
+              <div class="category">
+                <h3>Categories</h3>
+                <p class="category-name">Crafts</p>
+                <p class="number">2</p>
+                <br />
+                <p class="category-name">Design</p>
+                <p class="number">8</p>
+                <br />
+                <p class="category-name">Handmade</p>
+                <p class="number">7</p>
+                <br />
+                <p class="category-name">Interior</p>
+                <p class="number">1</p>
+                <br />
+                <p class="category-name">Wood</p>
+                <p class="number">6</p>
+              </div>
+
+              <div class="recent-posts">
+                <div class="posts">
+                  <h3>Recent Posts</h3>
+                  <div class="post mt-0">
+                    <img src="./images/blog-images/post-1.png" alt="post" />
+                    <p class="post-heading">
+                      Going all-in with <br />
+                      millennial design
+                    </p>
+                    <p class="date">03 Aug 2022</p>
+                  </div>
+                  <div class="post">
+                    <img src="./images/blog-images/post-2.png" alt="post" />
+                    <p class="post-heading">
+                      Exploring new ways <br />
+                      of decorating
+                    </p>
+                    <p class="date">03 Aug 2022</p>
+                  </div>
+                  <div class="post">
+                    <img src="./images/blog-images/post-3.png" alt="post" />
+                    <p class="post-heading">
+                      Handmade pieces <br />
+                      that took time to make
+                    </p>
+                    <p class="date">03 Aug 2022</p>
+                  </div>
+                  <div class="post">
+                    <img src="./images/blog-images/post-4.png" alt="post" />
+                    <p class="post-heading">
+                      Modern home in <br />
+                      Milan
+                    </p>
+                    <p class="date">03 Aug 2022</p>
+                  </div>
+                  <div class="post">
+                    <img src="./images/blog-images/post-5.png" alt="post" />
+                    <p class="post-heading">
+                      Colorful office <br />
+                      redesign
+                    </p>
+                    <p class="date">03 Aug 2022</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="card w-75">
+          <div class="card card-2">
             <img
               src="./images/blog-images/ability.img-2.png"
               class="card-img-top"
@@ -115,7 +259,7 @@
             </div>
           </div>
 
-          <div class="card w-75">
+          <div class="card">
             <img
               src="./images/blog-images/ability.img-3.png"
               class="card-img-top"
@@ -253,5 +397,18 @@
         <p class="pb-2">2022 Meubel House. All rights reverved</p>
       </div>
     </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function () {
+        $(".loader_bg").fadeToggle();
+      }, 1500);
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
