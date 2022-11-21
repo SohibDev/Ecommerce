@@ -83,7 +83,7 @@
   transition: 0.5s;
 }
 .ul li:hover {
-  transform: translateX(30px);
+  transform: translateX(40px);
   background: #1e0f4a;
 }
 .ul li:hover .icon {
@@ -99,7 +99,7 @@
   width: 20px;
   height: 20px;
   top: -28px;
-  left: -50px;
+  left: -30px;
   background: transparent;
   border-bottom-right-radius: 20px;
   box-shadow: 6px 5px 0 5px #1e0f4a;
@@ -108,7 +108,7 @@
   transition: 0.5s;
 }
 .ul li::before:hover {
-  right: 22px;
+  right: 42px;
   transform: scale(1);
 }
 .ul li::after {
@@ -117,7 +117,7 @@
   width: 20px;
   height: 20px;
   bottom: -28px;
-  right: -20px;
+  right: -40px;
   background: transparent;
   border-top-right-radius: 20px;
   box-shadow: 6px -3px 0 3px #1e0f4a;
@@ -126,7 +126,7 @@
   transition: 0.5s;
 }
 .ul li::after:hover {
-  right: 22px;
+  right: 42px;
   transform: scale(1);
 }
 .ul li a {
@@ -138,6 +138,7 @@
   text-align: center;
   text-decoration: none;
   z-index: 1000;
+  margin-left: -20px;
 }
 .ul li a .icon {
   position: relative;
@@ -166,8 +167,8 @@
   opacity: 0.5;
 }
 .ul li a .icon::after {
-  top: 10px;
-  left: -53px;
+  top: 20px;
+  left: -35px;
   content: "";
   position: absolute;
   width: 15px;
