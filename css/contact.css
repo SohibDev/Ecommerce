@@ -50,6 +50,7 @@
   font-size: 36px;
   line-height: 54px;
 }
+
 .contact p {
   font-family: "Poppins";
   max-width: 600px;
@@ -58,6 +59,7 @@
   line-height: 24px;
   color: #9f9f9f;
 }
+
 .contact div div div div p {
   font-family: "Poppins";
   font-style: normal;
@@ -67,6 +69,7 @@
   max-width: 195px;
   color: #000000;
 }
+
 .contact h4 {
   font-family: "Poppins";
   font-style: normal;
@@ -74,16 +77,14 @@
   font-size: 24px;
   line-height: 36px;
 }
+
 .contact button {
   padding: 5px 50px;
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 15px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> d518d6fb0f0a3976f923bcd4cc5b6076228abb73
 .contact button:hover {
   background-color: #000000;
   color: white;
@@ -110,9 +111,5 @@
     text-align: center;
     margin-top: 50px;
   }
-<<<<<<< HEAD
 }
 /*# sourceMappingURL=contact.css.map */
-=======
-}/*# sourceMappingURL=contact.css.map */
->>>>>>> d518d6fb0f0a3976f923bcd4cc5b6076228abb73
