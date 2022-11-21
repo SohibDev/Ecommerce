@@ -1,12 +1,16 @@
+@import '../abstracts/variables';
+.btn-close:focus,
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
 header {
-  background: red;
-  & .header {
-    background: red;
-  }
+  background:#FBEBB5 !important;
   padding: 1rem 0;
   transition: $control-transition-time;
   & #offcanvasNavbar {
-    background-color: red !important;
+    background-color: #FBEBB5 !important;
 
     @media screen and(max-width:990.999px) {
       .offcanvas-header {
@@ -26,10 +30,10 @@ header {
 
   .nav {
     &__link {
-      font-size: 17px;
       transition: $control-transition-time;
+    padding: 15px 25px;
+
       &:hover {
-        text-decoration: underline;
         color: white !important;
       }
     }
@@ -41,29 +45,21 @@ header {
     }
   }
 
-  & .active {
-    color: white !important;
-    background: transparent !important;
-    text-decoration: underline !important;
+  & .active {    
+    background: #fce18b !important;
+    color: whitesmoke !important;
   }
-
-  & .btn {
-    &__call {
-      background: $call-btn !important;
-      border: none;
-      border-radius: 25px;
-      transition: $control-transition-time;
-
-      &:hover {
-        background-color: transparent !important;
-        border: 1px solid $call-btn;
-      }
-    }
-  }
+  & .image:hover{
+    transition: $control-transition-time;
+    filter: invert(86%) sepia(37%) saturate(3987%) hue-rotate(353deg) brightness(93%) contrast(93%);
 }
+}
+
+
 
 .navbar-shrink {
-  background-color: #0a475a;
-  box-shadow: 0 0 8px #086e8d;
+  box-shadow: 0 0 5px #ffc400;
   padding: 5px !important;
 }
+
+

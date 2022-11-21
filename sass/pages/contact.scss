@@ -1,48 +1,48 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 .hero {
-    background-image: url("../images/background-hero.png");
+  background-image: url("../images/background-hero.png");
+  height: 316px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .hero__box {
     height: 316px;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    .hero__box {
-        height: 316px;
-        width: 100%;
-      
-        .link__account__hero__inner {
-          font-style: normal;
-          font-weight: 500;
-          font-size: 16px;
-          line-height: 24px;
-          color: #000000;
-        }
-      
-        .link_2_account__hero__inner {
-          font-weight: 300;
-          font-size: 16px;
-          line-height: 24px;
-          color: #000000;
-        }
-      }
-      
-      .login__account {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 36px;
-        line-height: 54px;
-        color: #000000;
-        padding-bottom: 36px;
-      }
-      
-      .user__or__email__label {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: #000000;
-        padding-bottom: 20px;
-      }
+    .link__account__hero__inner {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+    }
+
+    .link_2_account__hero__inner {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+    }
   }
+
+  .login__account {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    padding-bottom: 36px;
+  }
+
+  .user__or__email__label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom: 20px;
+  }
+}
 
 .contact {
   h2 {
@@ -88,8 +88,6 @@
     line-height: 36px;
   }
 
-  
-
   button {
     padding: 5px 50px;
     background-color: transparent;
@@ -97,25 +95,22 @@
     border-radius: 15px;
 
     &:hover {
-        background-color: #000000;
-        color: white;
+      background-color: #000000;
+      color: white;
     }
   }
 }
 
 .sec__info {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background: #FAF4F4;
-
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #faf4f4;
 }
 
 .sec-info {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
-
 
 @media only screen and (max-width: 992px) {
   .col-sm-con {
@@ -127,6 +122,3 @@
   }
 }
 
-.col-sm-con {
-
-}

@@ -1,13 +1,208 @@
-// @import '../main.scss';
-@import "../abstracts/mixin";
-@import "../abstracts/variables";
-@import "../base/reset";
-@import "../base/typography";
-@import "../components/buttons";
-@import "../components/carousel";
-@import "../components/preloader";
-@import "../layout/footer";
-@import "../layout/header";
-#hero-section {
-  background: #fbebb5 !important;
+.hero-section {
+  background: #FBEBB5 !important;
+  min-height: 100vh;
+}
+
+.navigation {
+  position: fixed;
+  inset: 90px 0 40px 20px;
+  width: 75px;
+  background: #fff;
+  display: flex;
+  justify-content: center !important;
+  transition: 0.5s;
+  align-items: center !important;
+}
+
+.navigation.active {
+  width: 250px;
+
+  .text {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}
+
+.menuToggle {
+  padding: 0 23px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navigation.active .menuToggle::before {
+  transform: translateY(0) rotate(45deg);
+  box-shadow: 0 0 0 #333;
+}
+
+.menuToggle::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #333;
+  transform: translateY(-8px);
+  transition: 0.5s;
+  box-shadow: 0 -8px 0 #333;
+}
+
+.menuToggle::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #333;
+  transform: translateY(8px);
+  transition: 0.5s;
+  box-shadow: 0 -8px 0 #333;
+}
+
+.navigation.active .menuToggle::after {
+  transform: translateY(0) rotate(-45deg);
+  box-shadow: 0 0 0 #333;
+}
+
+.ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  & li {
+    list-style: none;
+    position: relative;
+    width: 100%;
+    height: 76px;
+    border-radius: 12px;
+    border: 8px solid transparent;
+    transition: 0.5s;
+
+    &:hover {
+      transform: translateX(30px);
+      background: #1e0f4a;
+
+      & .icon {
+        background: yellow;
+        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(113deg) brightness(100%) contrast(100%);
+      }
+
+      & .text {
+        color: #fff !important;
+      }
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: -28px;
+      left: -50px;
+      background: transparent;
+      border-bottom-right-radius: 20px;
+      box-shadow: 6px 5px 0 5px #1e0f4a;
+      transform: scale(0);
+      transform-origin: bottom right;
+      transition: 0.5s;
+
+      &:hover {
+        right: 22px;
+        transform: scale(1);
+      }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      bottom: -28px;
+      right: -20px;
+      background: transparent;
+      border-top-right-radius: 20px;
+      box-shadow: 6px -3px 0 3px #1e0f4a;
+      transform: scale(0);
+      transform-origin: bottom right;
+      transition: 0.5s;
+
+      &:hover {
+        right: 22px;
+        transform: scale(1);
+      }
+    }
+
+    & a {
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+      z-index: 1000;
+
+      & .icon {
+        position: relative;
+        display: block;
+        min-width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        font-size: 1.7em;
+        line-height: 60px;
+        border: 6px solid transparent;
+        transition: 0.5s;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 12px;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          filter: blur(80px);
+          opacity: 0;
+          background: red;
+          transition: 0.5s;
+
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+
+        &::after {
+          top: 10px;
+          left: -53px;
+          content: '';
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          background: yellow;
+          border: 8px solid red;
+          border-radius: 50%;
+
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+      }
+
+      & .text {
+        position: relative;
+        padding: 0 15px;
+        color: #333;
+        display: flex;
+        align-items: center;
+        height: 60px;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+      }
+    }
+  }
 }

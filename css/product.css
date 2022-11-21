@@ -10,6 +10,18 @@ body {
   color: #9f9f9f;
 }
 
+.pages {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.pages:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  font-size: 20px;
+  color: black;
+}
+
 .price {
   font-weight: 500;
   font-size: 24px;
@@ -38,6 +50,7 @@ body {
   line-height: 20px;
   color: #000000;
 }
+
 .size:hover {
   background: #fbebb5;
 }
@@ -85,6 +98,7 @@ svg {
   border: 1px solid #000000;
   border-radius: 15px;
 }
+
 .btn1:hover {
   background: #fbebb5;
 }
@@ -98,6 +112,7 @@ svg {
 .second .heros:hover {
   color: black;
 }
+
 .second .txt2 {
   margin: 0 auto;
   max-width: 1028px;
@@ -110,6 +125,7 @@ svg {
 .views a {
   text-decoration: none;
 }
+
 .views a p {
   margin-top: 93px;
   width: 104px;
@@ -118,7 +134,8 @@ svg {
   line-height: 30px;
   color: #000000;
 }
-.views .line {
+
+.line {
   width: 115px;
   margin: 0 auto;
   height: 1px;
@@ -126,11 +143,68 @@ svg {
   border: 1px solid #000000;
 }
 
+.child {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.bounce:hover {
+  -webkit-animation-name: bounce;
+          animation-name: bounce;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.top_up {
+  width: 70px;
+  height: 70px;
+}
+
+.top_up svg {
+  width: 50px;
+  height: 50px;
+}
+
 @media screen and (max-width: 576px) {
   .little_sofa {
     display: none;
   }
   .second_txt {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-}/*# sourceMappingURL=product.css.map */
+}
+/*# sourceMappingURL=product.css.map */
