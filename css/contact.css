@@ -5,10 +5,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .hero .hero__box {
   height: 316px;
   width: 100%;
 }
+
 .hero .hero__box .link__account__hero__inner {
   font-style: normal;
   font-weight: 500;
@@ -16,12 +18,14 @@
   line-height: 24px;
   color: #000000;
 }
+
 .hero .hero__box .link_2_account__hero__inner {
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
 }
+
 .hero .login__account {
   font-style: normal;
   font-weight: 600;
@@ -30,6 +34,7 @@
   color: #000000;
   padding-bottom: 36px;
 }
+
 .hero .user__or__email__label {
   font-weight: 500;
   font-size: 16px;
@@ -79,9 +84,7 @@
   border: 1px solid #000000;
   border-radius: 15px;
 }
-<<<<<<< HEAD
-/*# sourceMappingURL=contact.css.map */
-=======
+
 .contact button:hover {
   background-color: #000000;
   color: white;
@@ -94,8 +97,12 @@
 }
 
 .sec-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media only screen and (max-width: 992px) {
@@ -104,5 +111,5 @@
     text-align: center;
     margin-top: 50px;
   }
-}/*# sourceMappingURL=contact.css.map */
->>>>>>> bba9f11 (Changed Contact Page)
+}
+/*# sourceMappingURL=contact.css.map */

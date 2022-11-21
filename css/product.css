@@ -11,6 +11,18 @@ body {
   color: #9f9f9f;
 }
 
+.pages {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.pages:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  font-size: 20px;
+  color: black;
+}
+
 .price {
   font-weight: 500;
   font-size: 24px;
