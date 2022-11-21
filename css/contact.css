@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 .hero {
   background-image: url("../images/background-hero.png");
   height: 316px;
@@ -83,7 +84,7 @@
 .sec__info {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: #FAF4F4;
+  background: #faf4f4;
 }
 
 .sec-info {

@@ -10,6 +10,16 @@ body {
   color: #9f9f9f;
 }
 
+.pages {
+  transition: 0.5s;
+}
+
+.pages:hover {
+  transform: translateY(-10px);
+  font-size: 20px;
+  color: black;
+}
+
 .price {
   font-weight: 500;
   font-size: 24px;
@@ -118,12 +128,61 @@ svg {
   line-height: 30px;
   color: #000000;
 }
+<<<<<<< HEAD
+
+.line {
+=======
 .views .line {
+>>>>>>> 3695ca11ef5577ee0faf9f489d40a09e1dc16404
   width: 115px;
   margin: 0 auto;
   height: 1px;
   background-color: black;
   border: 1px solid #000000;
+}
+
+.child {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.bounce:hover {
+  -webkit-animation-name: bounce;
+          animation-name: bounce;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 @media screen and (max-width: 576px) {

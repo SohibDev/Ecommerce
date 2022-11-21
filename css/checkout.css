@@ -19,8 +19,12 @@
   margin: 0px 10px;
 }
 
+.checkoout-second {
+  padding: 63px 0px 53px;
+}
+
 .chkt {
-  padding: 98px 79px 123px 76px;
+  padding: 35px 0px 76px;
 }
 .chkt h2 {
   font-weight: 600;
@@ -49,4 +53,35 @@
 }
 .chkt .chkt--input {
   width: 453px;
+<<<<<<< HEAD
+=======
+}
+
+.chkt1 {
+  padding: 86px 36px;
+}
+.chkt1 .sofa {
+  color: #9F9F9F;
+}
+.chkt1 .sum {
+  color: #B88E2F;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.btn {
+  width: 318px;
+  height: 64px;
+}
+
+.form-grey {
+  color: #9F9F9F;
+}
+
+@media screen and (max-width: 576px) {
+  .chkt .chkt--input {
+    width: 300px;
+  }
+>>>>>>> b7cce770cb07f4c58aabf67a9c124a2a6bbe8e76
 }/*# sourceMappingURL=checkout.css.map */

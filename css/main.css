@@ -249,6 +249,10 @@ header .nav__link {
   padding: 15px 25px;
 }
 header .nav__link:hover {
+<<<<<<< HEAD
+=======
+  text-decoration: underline !important;
+>>>>>>> b7cce770cb07f4c58aabf67a9c124a2a6bbe8e76
   color: white !important;
 }
 @media screen and (max-width: 990.999px) {
@@ -275,4 +279,32 @@ header .image:hover {
   outline: none;
   box-shadow: none;
   border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.top_up {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #1f1f1f;
+  text-decoration: none;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+.top_up.active {
+  bottom: 30px;
+  pointer-events: auto;
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */

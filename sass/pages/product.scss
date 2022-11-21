@@ -9,6 +9,16 @@ body {
 .text-secondarys {
   color: #9f9f9f;
 }
+.pages {
+  transition: 0.5s;
+}
+
+.pages:hover {
+  transform: translateY(-10px);
+  font-size: 20px;
+  color: black;
+}
+
 .price {
   font-weight: 500;
   font-size: 24px;
@@ -108,14 +118,35 @@ svg {
       color: #000000;
     }
   }
-  .line {
-    width: 115px;
-    margin: 0 auto;
-    height: 1px;
-    background-color: black;
-    border: 1px solid #000000;
+}
+.line {
+  width: 115px;
+  margin: 0 auto;
+  height: 1px;
+  background-color: black;
+  border: 1px solid #000000;
+}
+
+.child {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.bounce:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
+
 @media screen and (max-width: 576px) {
   .little_sofa {
     display: none;

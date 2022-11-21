@@ -21,8 +21,11 @@
         }
     }
 }
+.checkoout-second{
+    padding: 63px 0px 53px;
+}
 .chkt{
-    padding:98px 79px 123px 76px;
+    padding: 35px 0px 76px;
     h2{
         font-weight: 600;
         font-size: 36px;
@@ -49,7 +52,35 @@
         color: #9F9F9F;
     }
     .chkt--input{
-        width: 453px;
+       width: 453px;
+    }
+}
+.chkt1{
+    padding: 86px 36px;
+    .sofa{
+        color: #9F9F9F;
+    }
+    .sum{
+        color: #B88E2F;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+.btn{
+    width: 318px;
+    height: 64px;
+    
+}
+.form-grey{
+    color: #9F9F9F;
+}
+@media screen and (max-width:576px){
+    .chkt{
+
+        .chkt--input{
+            width: 300px;
+        }
     }
 }
 
