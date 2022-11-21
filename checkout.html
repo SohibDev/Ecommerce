@@ -13,6 +13,58 @@
     <div class="loader_bg">
         <div class="loader"></div>
       </div>
+
+      <header class="sticky-top header" id="navbar">
+        <div class="container-sm">
+          <nav id="navbar-example2" class="navbar navbar-expand-lg justify-content-between">
+            <div class="d-flex align-items-center ">
+            </div>
+            <div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation" data-offset="0">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-start d-flex w-75 flex-lg-row align-items-center" tabindex="-1"
+                id="offcanvasNavbar" data-bs-scroll="true" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header px-sm-5">
+                  <div class="d-flex gap-2">
+                  </div>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <ul class="gap-4 nav nav-pills px-sm-2">
+                  <li class="nav__item">
+                    <a class="nav__link active  text-black" aria-current="page" href="./index.html">Home</a>
+                  </li>
+    
+                  <li class="nav__item">
+                    <a class="nav__link text-black" href="./shop.html">Shop</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link text-black" href="./blog.html">About</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link text-black" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="d-none d-lg-flex gap-5">
+              <div class="link link1">
+                <a href="./account.html"><img class="image" src="./images/link1.png" alt="link"></a>
+              </div>
+              <div class="link link2">
+                <a href="./checkout.html"><img class="image" src="./images/link2.png" alt="link"></a>
+              </div>
+              <div class="link link3">
+                <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img class="image" src="./images/link3.png" alt="link"></a>
+              </div>
+              <div class="link link4">
+                <a href="./card.html" ><img class="image" src="./images/link4.png" alt="link"></a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
     <main>
         <section class="checkout_hero d-flex justify-content-center align-items-center flex-column">
                 <img src="./images/hero-icon.svg" alt="iconca">
@@ -123,7 +175,7 @@
                               <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <p>privacy policy</p>.</p>
                               <div class="d-flex justify-content-center">
 
-                                  <button type="button" class="btn btn-outline-dark ">Dark</button>
+                                  <button type="button" class="btn btn-outline-dark ">Place Order</button>
                               </div>
                            </form>
                         </div>
