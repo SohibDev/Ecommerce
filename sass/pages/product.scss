@@ -147,6 +147,15 @@ svg {
   }
 }
 
+.top_up {
+  width: 70px;
+  height: 70px;
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .little_sofa {
     display: none;
