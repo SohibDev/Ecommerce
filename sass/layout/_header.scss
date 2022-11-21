@@ -1,9 +1,9 @@
 @import '../abstracts/variables';
 .btn-close:focus,
 .navbar-toggler:focus {
-  outline: none;
-  box-shadow: none;
-  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 header {
   background:#FBEBB5 !important;
