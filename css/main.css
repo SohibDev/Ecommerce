@@ -249,10 +249,6 @@ header .nav__link {
   padding: 15px 25px;
 }
 header .nav__link:hover {
-<<<<<<< HEAD
-=======
-  text-decoration: underline !important;
->>>>>>> b7cce770cb07f4c58aabf67a9c124a2a6bbe8e76
   color: white !important;
 }
 @media screen and (max-width: 990.999px) {

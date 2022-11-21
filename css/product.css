@@ -128,12 +128,8 @@ svg {
   line-height: 30px;
   color: #000000;
 }
-<<<<<<< HEAD
 
 .line {
-=======
-.views .line {
->>>>>>> 3695ca11ef5577ee0faf9f489d40a09e1dc16404
   width: 115px;
   margin: 0 auto;
   height: 1px;
@@ -157,34 +153,27 @@ svg {
 
 @-webkit-keyframes bounce {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    transform: translateY(-30px);
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @keyframes bounce {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    transform: translateY(-30px);
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
-
 @media screen and (max-width: 576px) {
   .little_sofa {
     display: none;
