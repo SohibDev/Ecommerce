@@ -1,13 +1,12 @@
-@import './abstracts/mixin';
-@import './abstracts/variables';
-@import './base/reset';
-@import './base/typography';
-@import './components/buttons';
-@import './components/carousel';
-@import './components/preloader';
-@import './layout/footer';
-@import './layout/header';
-
+@import "./abstracts/mixin";
+@import "./abstracts/variables";
+@import "./base/reset";
+@import "./base/typography";
+@import "./components/buttons";
+@import "./components/carousel";
+@import "./components/preloader";
+@import "./layout/footer";
+@import "./layout/header";
 
 .btn-close:focus,
 .navbar-toggler:focus {
@@ -26,7 +25,7 @@ html {
   position: fixed;
   bottom: 16px;
   right: 32px;
-  background-color: white;
+  background-color: #fbebb5;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -36,15 +35,19 @@ html {
   text-decoration: none;
   opacity: 1;
   pointer-events: none;
-  transition: all .4s;
+  transition: all 0.4s;
 
   &.active {
     bottom: 30px;
     pointer-events: auto;
     opacity: 1;
   }
+<<<<<<< HEAD
 
   &:hover {
     background-color: red;
   }
 }
+=======
+}
+>>>>>>> 82b8857394ad4b0dee91b293706e37ecb3bbd1ee
