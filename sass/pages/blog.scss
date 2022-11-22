@@ -3,6 +3,8 @@
 @import "../base/reset";
 @import "../layout/footer";
 @import "../layout/header";
+@import "../components/preloader";
+@import "../abstracts/variables";
 
 #top {
     width: 50px;
@@ -13,7 +15,7 @@
     bottom: 60px;
     position: fixed;
     right: 50px;
-    background-color: gray;
+    background-color: rgb(251,235,181);
     z-index: 200000;
 }
 
