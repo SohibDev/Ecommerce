@@ -1,3 +1,7 @@
+header{
+    background-color: white !important;
+
+}
 .checkout_hero{
     background-image: url("../Ecommerce/images/background-hero.png");
     height: 316px;
@@ -53,6 +57,9 @@
         border-radius: 10px; 
         padding: 10px;
         color: #9F9F9F;
+    }
+    .chkt__input:hover{
+        border: 2px solid #B88E2F;
     }
     .chkt--input{
        width: 453px;
