@@ -298,4 +298,13 @@
 .asgard img {
   max-width: 700px;
   width: 100%;
+}
+.asgard .asgard-title {
+  margin-top: 50%;
+}
+.asgard.orderBtn {
+  width: 255px;
+  height: 64px;
+  background: transparent;
+  border: 1px solid #000000;
 }/*# sourceMappingURL=index.css.map */
