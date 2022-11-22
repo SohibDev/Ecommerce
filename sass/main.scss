@@ -43,4 +43,8 @@ html {
     pointer-events: auto;
     opacity: 1;
   }
+
+  &:hover {
+    background-color: red;
+  }
 }
