@@ -9,12 +9,27 @@
 .card-section .card__item a {
   color: black;
 }
+.card-section .card-images {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #FFF9E5;
+  box-shadow: 6px 3px 15px 3px #f0dfa7;
+}
 .card-section img {
-  width: 100px;
+  width: 150px;
 }
 .card-section .button {
   width: 50px;
   height: 50px;
+  border: 1px solid rgb(207, 207, 207);
+  background-color: white;
+  border-radius: 10px;
+}
+.card-section .button:hover {
+  border: none;
+  background-color: #FFF9E5;
+  color: #B88E2F;
+  box-shadow: 3px 3px 15px 3px #f0dfa7;
 }
 .card-section .p-4 {
   color: #B88E2F;
@@ -28,6 +43,18 @@
   text-align: center;
   padding-bottom: 60px;
 }
+.card-section .box-card {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid black;
+  background-color: #FFF9E5;
+  border-radius: 20px;
+}
+.card-section .box-card:hover {
+  border: 1px solid #B88E2F;
+  background-color: white;
+  color: #B88E2F;
+}
 
 .icon-bar .fa-trash {
   font-size: 40px;
@@ -40,10 +67,11 @@
     padding: 15px;
     border: none;
   }
-  .img {
+  .card-section .card-images {
     margin-bottom: 30px;
   }
   .card-box {
     padding: 0;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=card.css.map */

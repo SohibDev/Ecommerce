@@ -1,6 +1,13 @@
+.btn1 {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  transition: 1s;
+  max-width: 120px;
+}
+
 .hero-section {
   background: #FBEBB5 !important;
-  min-height: 100vh;
 }
 
 .navigation {
@@ -137,7 +144,7 @@
   width: 100%;
   text-align: center;
   text-decoration: none;
-  z-index: 1000;
+  z-index: 1000000;
   margin-left: -20px;
 }
 .ul li a .icon {
@@ -192,22 +199,13 @@
 }
 
 .hero-title {
-  padding-top: 300px;
   font-size: 52px;
   width: 100%;
 }
 
 .hero-link {
-  display: inline-block;
-  font-size: 20px;
-  border-bottom: 2px solid black;
+  margin-bottom: 50px;
   transition: 0.5s;
-  max-width: 120px;
-}
-@media (max-width: 999px) and (min-width: 555px) {
-  .hero-link .hero-section {
-    background-color: red !important;
-  }
 }
 .hero-link:hover {
   border-radius: 10px;
@@ -215,8 +213,9 @@
   background: #ffc400 !important;
   color: white !important;
 }
-.hero-link .hero-title {
-  padding-top: 0;
+
+.hero-title {
+  padding-top: 300px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -237,8 +236,66 @@
     font-size: 52px;
   }
 }
+.card {
+  border: none !important;
+  z-index: -321;
+}
+
 @media screen and (max-width: 999px) {
   .hero-title {
     padding-top: 0;
   }
+  .home-hero-left {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+  }
+  .home-hero-left.hero-link {
+    text-align: center !important;
+    margin: 0 auto;
+  }
+}
+.product-inner {
+  background-color: #FAF4F4 !important;
+  padding-top: 100px;
+}
+
+.side-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side-parent .side {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.side-parent .side img {
+  max-width: 450px;
+  width: 100%;
+}
+.side-parent .side .product-link {
+  font-size: 17px;
+  margin-bottom: 65px;
+}
+
+.Viewlink {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column;
+}
+
+.view {
+  margin-top: 80px !important;
+  text-align: center !important;
+}
+
+.asgard {
+  background: #FFF9E5;
+}
+.asgard img {
+  max-width: 700px;
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */

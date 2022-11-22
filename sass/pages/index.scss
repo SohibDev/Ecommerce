@@ -3,7 +3,6 @@
 
 .hero-section {
   background: #FBEBB5 !important;
-  min-height: 100vh;
 }
 
 .navigation {
@@ -149,7 +148,7 @@
       width: 100%;
       text-align: center;
       text-decoration: none;
-      z-index: 1000;
+      z-index: 1000000;
       margin-left: -20px;
 
       & .icon {
@@ -212,27 +211,25 @@
 }
 
 .hero-title {
-  padding-top: 100px !important;
   font-size: 52px;
   width: 100%;
-  display: flex;
-  justify-content: center;
+
 }
 
 .hero-link {
-  margin-bottom: -20px;
-}
+  margin-bottom: 50px;
+  transition: 0.5s;
 
-&:hover {
-  transform: translateX(-10px);
-  border-radius: 10px;
-  border: 2px solid transparent;
-  background: #ffc400 !important;
-  color: white !important;
+  &:hover {
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background: #ffc400 !important;
+    color: white !important;
+  }
 }
 
 .hero-title {
-  padding-top: 0;
+  padding-top: 300px;
 }
 
 
@@ -257,22 +254,74 @@
   }
 }
 
+.card {
+  border: none !important;
+  z-index: -321;
+}
+
 @media screen and (max-width:999px) {
   .hero-title {
     padding-top: 0;
   }
+
+  .home-hero-left {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+
+    &.hero-link {
+      text-align: center !important;
+      margin: 0 auto;
+    }
+  }
 }
 
 
-#products-section {
-  background-color: red !important;
-  padding-top: 50px;
+.product-inner {
+  background-color: #FAF4F4 !important;
+  padding-top: 100px;
 }
-.side-parent{
+
+.side-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   & .side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
     & img {
-      width: 500px;
+      max-width: 450px;
       width: 100%;
     }
+
+    .product-link {
+      font-size: 17px;
+      margin-bottom: 65px;
+    }
+  }
+}
+
+.Viewlink {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column;
+}
+
+.view {
+  margin-top: 80px !important;
+  text-align: center !important;
+}
+
+.asgard {
+  background: #FFF9E5;
+
+  & img {
+    max-width: 700px;
+    width: 100%;
   }
 }
