@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"shop.css"}
+{"version":3,"sources":["../sass/pages/shop.scss","shop.css"],"names":[],"mappings":"AAAA;EACI,wDAAA;EACA,4BAAA;EACA,sBAAA;ACCJ","file":"shop.css"}

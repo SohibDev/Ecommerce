@@ -1,1 +1,5 @@
-/*# sourceMappingURL=shop.css.map */
+.hero {
+  background-image: url("../../images/shop-imgs/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=shop.css.map */
