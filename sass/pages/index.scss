@@ -329,10 +329,21 @@
     margin-top: 50%;
   }
 
-  &.orderBtn {
+  & .btn-order {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  & .orderBtn {
+    margin: 0 auto !important;
     width: 255px;
     height: 64px;
-    background: transparent;
     border: 1px solid #000000;
+    transition: 0.5s;
+    background: transparent !important;
+    &:hover{
+      background: #FBEBB5 !important;
+      color: white !important;
+    }
   }
+}
 }
