@@ -1,3 +1,6 @@
+@import'../components/buttons';
+@import'../abstracts/variables';
+
 .hero-section {
   background: #FBEBB5 !important;
   min-height: 100vh;
@@ -209,22 +212,19 @@
 }
 
 .hero-title {
-  padding-top: 200px !important;
+  padding-top: 100px !important;
   font-size: 52px;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-link {
-  display: inline-block;
-  font-size: 20px;
-  border-bottom: 2px solid black;
-  transition: 0.5s;
-  max-width: 120px;
   margin-bottom: -20px;
-
 }
 
 &:hover {
+  transform: translateX(-10px);
   border-radius: 10px;
   border: 2px solid transparent;
   background: #ffc400 !important;
@@ -263,8 +263,9 @@
   }
 }
 
+
 #products-section {
-  background-color: #FAF4F4;
+  background-color: red !important;
   padding-top: 50px;
 }
 .side-parent{
