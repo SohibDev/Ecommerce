@@ -5,9 +5,9 @@
 
 .navigation {
   position: fixed;
-  inset: 90px 0 40px 20px;
+  inset: 90px 0 0 10px;
   width: 75px;
-  background: #fff;
+  background: #ffc400;
   display: flex;
   justify-content: center !important;
   transition: 0.5s;
@@ -89,7 +89,8 @@
 
       & .icon {
         background: yellow;
-        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(113deg) brightness(100%) contrast(100%);
+        filter: invert(13%) sepia(73%) saturate(4960%) hue-rotate(359deg) brightness(85%) contrast(113%);
+        // filter: invert(81%) sepia(43%) saturate(2877%) hue-rotate(358deg) brightness(101%) contrast(104%);
       }
 
       & .text {
@@ -157,7 +158,6 @@
         font-size: 1.7em;
         line-height: 60px;
         border: 6px solid transparent;
-        transition: 0.5s;
 
         &::before {
           content: '';
@@ -204,6 +204,74 @@
         visibility: hidden;
         transition: 0.5s;
       }
+    }
+  }
+}
+
+.hero-title {
+  padding-top: 200px !important;
+  font-size: 52px;
+  width: 100%;
+}
+
+.hero-link {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  transition: 0.5s;
+  max-width: 120px;
+  margin-bottom: -20px;
+
+}
+
+&:hover {
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background: #ffc400 !important;
+  color: white !important;
+}
+
+.hero-title {
+  padding-top: 0;
+}
+
+
+.home-hero-right {
+  @media screen and (min-width:1000px) {
+    margin-left: 96px;
+  }
+
+  & img {
+    width: 600px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:642px) {
+  .navigation {
+    display: none !important;
+  }
+
+  .hero-title {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width:999px) {
+  .hero-title {
+    padding-top: 0;
+  }
+}
+
+#products-section {
+  background-color: #FAF4F4;
+  padding-top: 50px;
+}
+.side-parent{
+  & .side {
+    & img {
+      width: 500px;
+      width: 100%;
     }
   }
 }

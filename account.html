@@ -13,6 +13,77 @@
     <div class="loader_bg">
       <div class="loader"></div>
     </div>
+    <header class="sticky-top header" id="navbar">
+      <div class="container-sm">
+        <nav
+          id="navbar-example2"
+          class="navbar navbar-expand-lg justify-content-between"
+        >
+          <div class="d-flex align-items-center"></div>
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              data-offset="0"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-start d-flex w-75 flex-lg-row align-items-center"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              data-bs-scroll="true"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header px-sm-5">
+                <div class="d-flex gap-2"></div>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <ul class="gap-4 nav nav-pills px-sm-2">
+                <li class="nav__item">
+                  <a
+                    class="nav__link active text-black"
+                    aria-current="page"
+                    href="#home"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav__item">
+                  <a class="nav__link text-black" href="#service">Shop</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link text-black" href="#about">About</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link text-black" href="#blog">Contact</a>
+                </li>
+              </ul>
+              <a
+                href="tel:+998995252284"
+                class="btn__call py-3 px-5 text-white d-block d-lg-none mt-4 w-75 d-flex justify-content-center fs-3"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="btn d-none d-lg-block">
+            <a href="tel:+998994545597" class="btn__call py-3 px-5 text-white"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
     <main>
       <section class="hero">
         <div class="container">
@@ -47,7 +118,8 @@
                 <h2 class="login__account">Log In</h2>
                 <label for="username" class="user__or__email__label">
                   Username or email address
-                </label> <br>
+                </label>
+                <br />
                 <input
                   name="username_mail"
                   id="username"
@@ -101,19 +173,17 @@
                   address.
                 </p>
                 <p class="register__text_1">
-                  Your personal data will be used to support your <br> experience
-                  throughout this website, to manage access <br> to your account, and
-                  for other purposes described in our <br><strong> 
-                    privacy
-                    policy.
-                  </strong>
+                  Your personal data will be used to support your <br />
+                  experience throughout this website, to manage access <br />
+                  to your account, and for other purposes described in our
+                  <br /><strong> privacy policy. </strong>
                 </p>
                 <button
-                type="submit"
-                class="btn btn-outline-dark button__log__in__acc"
-              >
-                Register
-              </button>
+                  type="submit"
+                  class="btn btn-outline-dark button__log__in__acc"
+                >
+                  Register
+                </button>
               </form>
             </div>
           </div>
@@ -123,30 +193,33 @@
         <div class="container">
           <div class="row justify-content-center">
             <!-- <div class="row__inner__account d-flex justify-content-center"> -->
-              <div class="col-12 col-xl-4 col-lg-6 col-xxl-4 col-md-12 col-sm-12 row__inner__account">
-                <h2 class="info__txt__heading">
-                  Free Delivery
-                </h2>
-                <p class="info__txt__p">
-                  For all oders over $50, consectetur <br> adipim scing elit.
-                </p>
-              </div>
-              <div class="col-12 col-xl-4 col-lg-6 col-xxl-4 col-md-12 col-sm-12 row__inner__account">
-                <h2 class="info__txt__heading">
-                  90 Days Return
-                </h2>
-                <p class="info__txt__p">
-                  If goods have problems, consectetur <br> adipim scing elit.
-                </p>
-              </div>
-              <div class="col-12 col-xl-4 col-lg-6 col-xxl-4 col-md-12 col-sm-12 row__inner__account">
-                <h2 class="info__txt__heading">
-                  Secure Payment
-                </h2>
-                <p class="info__txt__p">
-                  100% secure payment, consectetur <br> adipim scing elit.
-                </p>
-              </div>
+            <div
+              class="col-12 col-xl-4 col-lg-6 col-xxl-4 col-md-12 col-sm-12 row__inner__account"
+            >
+              <h2 class="info__txt__heading">Free Delivery</h2>
+              <p class="info__txt__p">
+                For all oders over $50, consectetur <br />
+                adipim scing elit.
+              </p>
+            </div>
+            <div
+              class="col-12 col-xl-4 col-lg-6 col-xxl-4 col-md-12 col-sm-12 row__inner__account"
+            >
+              <h2 class="info__txt__heading">90 Days Return</h2>
+              <p class="info__txt__p">
+                If goods have problems, consectetur <br />
+                adipim scing elit.
+              </p>
+            </div>
+            <div
+              class="col-12 col-xl-4 col-lg-6 col-xxl-4 col-md-12 col-sm-12 row__inner__account"
+            >
+              <h2 class="info__txt__heading">Secure Payment</h2>
+              <p class="info__txt__p">
+                100% secure payment, consectetur <br />
+                adipim scing elit.
+              </p>
+            </div>
             <!-- </div> -->
           </div>
         </div>

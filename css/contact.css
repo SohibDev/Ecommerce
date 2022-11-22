@@ -5,13 +5,12 @@
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -5px;
 }
-
 .hero .hero__box {
   height: 316px;
   width: 100%;
 }
-
 .hero .hero__box .link__account__hero__inner {
   font-style: normal;
   font-weight: 500;
@@ -19,14 +18,12 @@
   line-height: 24px;
   color: #000000;
 }
-
 .hero .hero__box .link_2_account__hero__inner {
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
 }
-
 .hero .login__account {
   font-style: normal;
   font-weight: 600;
@@ -35,7 +32,6 @@
   color: #000000;
   padding-bottom: 36px;
 }
-
 .hero .user__or__email__label {
   font-weight: 500;
   font-size: 16px;
@@ -51,7 +47,6 @@
   font-size: 36px;
   line-height: 54px;
 }
-
 .contact p {
   font-family: "Poppins";
   max-width: 600px;
@@ -60,7 +55,6 @@
   line-height: 24px;
   color: #9f9f9f;
 }
-
 .contact div div div div p {
   font-family: "Poppins";
   font-style: normal;
@@ -70,7 +64,6 @@
   max-width: 195px;
   color: #000000;
 }
-
 .contact h4 {
   font-family: "Poppins";
   font-style: normal;
@@ -78,14 +71,12 @@
   font-size: 24px;
   line-height: 36px;
 }
-
 .contact button {
   padding: 5px 50px;
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 15px;
 }
-
 .contact button:hover {
   background-color: #000000;
   color: white;
@@ -98,12 +89,8 @@
 }
 
 .sec-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 992px) {
@@ -112,5 +99,4 @@
     text-align: center;
     margin-top: 50px;
   }
-}
-/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=contact.css.map */

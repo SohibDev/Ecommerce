@@ -1,5 +1,5 @@
 .checkout_hero{
-    background-image: url("../images/background-hero.png");
+    background-image: url("../Ecommerce/images/background-hero.png");
     height: 316px;
     width: 100%;
     background-repeat: no-repeat;
@@ -26,6 +26,9 @@
 }
 .chkt{
     padding: 35px 0px 76px;
+    .chkt-box{
+        padding-left: 80px;
+    }
     h2{
         font-weight: 600;
         font-size: 36px;
@@ -74,6 +77,62 @@
 }
 .form-grey{
     color: #9F9F9F;
+}
+.chkt-p{
+    display: inline;
+}
+.black{
+    color: black;
+    font-weight: 600;
+}
+
+#services {
+    background-color: #FAF4F4;
+    padding: 96px 0 50px 0;
+
+    .dad-box {
+        .box {
+            margin-bottom: 40px;
+
+            h3 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 48px;
+                color: #000000;
+            }
+
+            p {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 30px;
+
+                color: #9F9F9F;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:990px) {
+    #services {
+        .dad-box {
+            .box {
+
+                p,
+                h3 {
+                    text-align: center !important;
+                }
+            }
+        }
+    }
+    .chkt{
+        .chkt-box{
+            padding-left: 0px;
+        }
+    }
 }
 @media screen and (max-width:576px){
     .chkt{
